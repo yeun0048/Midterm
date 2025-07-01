@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #a8cecc;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+
+.page-wrapper {
+  width: 760px;
+  margin: 0 auto;
+  background-color: #d3e8e7;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+header {
+  position: relative;
+  text-align: center;
+}
+
+.top-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.top-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: normal;
+  color: white;
+}
+
+.navbar {
+  background-color: #d3e8e7;
+  border-top: 1px solid #ccc;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  flex: 1;
+  text-align: center;
+  padding: 12px 0;
+  font-weight: normal;
+  font-size: 17px;
+  border-left: 1px solid #aaa;
+}
+
+.navbar li:first-child {
+  border-left: none;
+}
+
+.content-wrapper {
+  background-color: #d3e8e7;
+  padding: 20px;
+}
+
+.life-section h2 {
+  margin-top: 0;
+font-weight: 540;
+  font-size: 27px;
+  margin-bottom: 1px;
+}
+
+.life-content {
+  display: flex;
+  gap: 20px;
+}
+
+.life-img {
+  float: left;
+  margin-right: 15px;
+   margin-bottom: 18px;
+}
+
+
+.life-content p {
+  line-height: 1.3;
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+
+.facts-section h3{
+  font-weight: 540;
+  font-size: 21px;
+  margin-bottom: 5px;
+}
+
+.facts-section ul {
+  padding-left: 20px;
+  margin-top: 0;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.facts-section h4 {
+  margin-top: 10px;
+  font-weight: 540;
+  font-size: 21px;
+  margin-bottom: 5px;
+}
+
+.contact-section {
+  border: 1px solid black;
+  padding: 15px;
+  background-color: #d3e8e7;
+  margin-top: 1px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 6px;
+  border: 1px solid #aaa;
+  margin-bottom: 10px;
+}
+
+.radio-label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 40px;
+  height: 30px;
+  font-size: 8px;
+  padding: 4px;
+  border: 1px solid black;
+  background-color: #d3e8e7;
+  cursor: pointer;
+}
+
+footer {
+  padding: 10px 20px;
+  text-align: right;
+  font-size: 12px;
+}
